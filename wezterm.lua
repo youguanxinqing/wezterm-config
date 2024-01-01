@@ -1,8 +1,8 @@
 local Config = require("config")
 
-require('events.right-status').setup()
-require('events.tab-title').setup()
-require('events.new-tab-button').setup()
+-- require('events.right-status').setup()
+-- require('events.tab-title').setup()
+-- require('events.new-tab-button').setup()
 
 return Config:init()
     :append(require("config.appearance"))
